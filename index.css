@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #111827;
+    color: #FFFFFF;
+    user-select: none;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+img {
+    width: 150px;
+    margin: 50px auto 0;
+}
+
+textarea, input {
+    color: #8F8F8F;
+    border: none;
+    background-color: #444059;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+textarea {
+    padding: 10px 10px 120px 10px;
+    width: 320px;
+    margin: 10px 0;
+    height: 95px;
+}
+
+textarea:focus, input:focus {
+    border-color: #8F8F8F;
+    outline: none; 
+}
+
+.input-field-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 150px;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    width: 320px;
+    background-color: #28A9F1;
+    text-align: center;
+    font-family: inherit;
+    font-size: 25px;
+    margin: 10px auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.x-logo,.github-logo {
+    width: 25px;
+    padding: 2px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 0;
+}
+
+ul li {
+    padding: 15px;
+    box-shadow: 1px 1px 1px white;
+    background-color: #fefae0;
+    color: black;
+    flex-grow: 1;
+    margin: 5px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button:hover, .delete-btn:hover{
+    cursor: pointer;
+} 
+
+.fromUser-btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    padding-top: 7px;
+}
